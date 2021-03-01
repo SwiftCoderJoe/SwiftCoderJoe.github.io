@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "Roboto Mono";
+    font-size: 500%;
+    text-align: center;
+    color: #eeeeee
+}
+
+h3 {
+    font-family: "Roboto Mono";
+    font-size: 300%;
+    text-align: center;
+    color: #eeeeee;
+}
+
+p {
+    font-family: "Roboto";
+    color: #eeeeee;
+}
+
+p.headerSize {
+    font-family: "Roboto Mono";
+    font-size: 75%;
+}
+
+div.header {
+    display: flex;
+
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+    background-color: #000000;
+
+    font-family: "Roboto Mono";
+    font-size: 500%;
+    color: #eeeeee; /*reeeee*/
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.skillsContainer {
+    padding: 10px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+div.skillsItem {
+    flex: 1;
+    padding: 20px;
+}
+
+div.headerWhite {
+    background-color: #eeeeee;
+
+    height: 100vh;
+    width: 25%
+}
+
+div.contentWrapper {
+    padding: 20px;
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+div.innerContent {
+    background-color: #000000;
+}
+
+img.avatar {
+    position: relative;
+    border-radius: 50%;
+
+    left: -30%;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    filter: drop-shadow(0 0 7px #dc143c);
+}
