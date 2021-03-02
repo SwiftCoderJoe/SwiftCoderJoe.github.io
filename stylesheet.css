@@ -18,7 +18,7 @@ h3 {
     color: #eeeeee;
 }
 
-p {
+p, th, td {
     font-family: "Roboto";
     color: #eeeeee;
 }
@@ -45,14 +45,14 @@ div.header {
     align-items: center;
 }
 
-div.skillsContainer {
+div.listContainer {
     padding: 10px;
     display: flex;
 
     justify-content: space-between;
 }
 
-div.skillsItem {
+div.listItem {
     flex: 1;
     padding: 20px;
 }
@@ -70,8 +70,12 @@ div.contentWrapper {
 }
 
 div.innerContent {
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
     background-color: #000000;
+    text-align: center;
 }
+
 
 img.avatar {
     position: relative;
@@ -84,8 +88,52 @@ img.avatar {
     filter: drop-shadow(0 0 7px #dc143c);
 }
 
+td {
+    padding: 10px;
+}
+
+#status {
+    text-align: center;
+}
+
+sh {
+    color: #00ff15;
+}
+
+oh {
+    color: #ff416c;
+}
+
+dead {
+    color: #ff4b2b;
+}
+
+.button {
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 1200px) {
-    div.skillsContainer {
+    div.listContainer {
         flex-direction: column;
     }
 }
