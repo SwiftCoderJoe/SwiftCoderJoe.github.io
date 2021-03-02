@@ -25,7 +25,7 @@ p {
 
 p.headerSize {
     font-family: "Roboto Mono";
-    font-size: 75%;
+    font-size: 3vw;
 }
 
 div.header {
@@ -38,7 +38,7 @@ div.header {
     background-color: #000000;
 
     font-family: "Roboto Mono";
-    font-size: 500%;
+    font-size: 4vw;
     color: #eeeeee; /*reeeee*/
 
     justify-content: space-between;
