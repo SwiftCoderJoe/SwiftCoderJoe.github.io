@@ -13,7 +13,7 @@ h2 {
 
 h3 {
     font-family: "Roboto Mono";
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     color: #eeeeee;
 }
@@ -84,4 +84,8 @@ img.avatar {
     filter: drop-shadow(0 0 7px #dc143c);
 }
 
-@
+@media (max-width: 1200px) {
+    div.skillsContainer {
+        flex-direction: column;
+    }
+}
