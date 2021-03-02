@@ -76,6 +76,15 @@ div.innerContent {
     text-align: center;
 }
 
+div.buttonContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 5px;
+    width: 188px;
+}
+
 
 img.avatar {
     position: relative;
@@ -108,8 +117,10 @@ dead {
     color: #ff4b2b;
 }
 
+/* for future reference: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_animate1 */
+
 .button {
-    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    background-color: rgba(0,0,0,1);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -124,7 +135,7 @@ dead {
 }
 
 .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgba(0,0,0,0);
 }
 
 table {
