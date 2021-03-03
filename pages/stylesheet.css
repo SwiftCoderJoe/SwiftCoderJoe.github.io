@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "Roboto Mono";
+    font-size: 500%;
+    text-align: center;
+    color: #eeeeee
+}
+
+h3 {
+    font-family: "Roboto Mono";
+    font-size: 250%;
+    text-align: center;
+    color: #000000;
+}
+
+p, th, td {
+    font-family: "Roboto";
+    color: #eeeeee;
+}
+
+div.header {
+    display: flex;
+
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    height: 50vh;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.headerContent {
+    color: #eeeeee;
+    font-family: "Roboto Mono";
+    font-size: 4vw;
+
+    background-color: #000000;
+
+    padding: 50px;
+}
+
+div.content1 {
+    padding: 50px;
+    background-color: #000000;
+}
+
+div.statusContainer {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+div.statusBox {
+    padding: 10px;
+
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+#status {
+    text-align: center;
+}
+
+sh {
+    color: #00ff15;
+}
+
+oh {
+    color: #ff416c;
+}
+
+dead {
+    color: #ff4b2b;
+}
