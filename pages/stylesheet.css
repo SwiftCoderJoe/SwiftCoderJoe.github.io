@@ -50,6 +50,9 @@ div.content1 {
 
 div.statusContainer {
     display: inline-flex;
+    flex-direction: row;
+
+    align-items: center;
 
     padding: 10px;
     background-color: #eeeeee;

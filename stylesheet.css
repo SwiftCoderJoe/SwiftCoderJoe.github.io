@@ -38,11 +38,15 @@ div.header {
     background-color: #000000;
 
     font-family: "Roboto Mono";
-    font-size: 4vw;
+    font-size: 3.8vw;
     color: #eeeeee; /*reeeee*/
 
     justify-content: space-between;
     align-items: center;
+}
+
+div.headerContent {
+    padding: 25px;
 }
 
 div.listContainer {
@@ -80,7 +84,7 @@ div.buttonContainer {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 1px;
+    padding: 0px 2px;
     background-image: linear-gradient(to right, #ff416c, #ff4b2b);
     border-radius: 5px;
 }
