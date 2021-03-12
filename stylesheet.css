@@ -15,16 +15,17 @@ h3 {
     font-family: "Roboto Mono";
     font-size: 250%;
     text-align: center;
-    color: #eeeeee;
+    color: #000000;
 }
 
 p, th, td {
     font-family: "Roboto";
-    color: #eeeeee;
+    color: #000000;
 }
 
 p.headerSize {
     font-family: "Roboto Mono";
+    color: #eeeeee;
     font-size: 3vw;
 }
 
@@ -57,8 +58,16 @@ div.listContainer {
 }
 
 div.listItem {
-    flex: 1;
+    /*flex: 1;*/
     padding: 20px;
+
+    width: 20vw;
+
+    box-shadow: #000000;
+
+    background-color: #eeeeee;
+
+    box-shadow: -10px 10px 5px #ff416c;
 }
 
 div.headerWhite {
@@ -70,7 +79,9 @@ div.headerWhite {
 
 div.contentWrapper {
     padding: 20px;
-    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    /*background-image: linear-gradient(to right, #ff416c, #ff4b2b);*/
+
+    background-color: #111111;
 }
 
 div.innerContent {
