@@ -15,7 +15,6 @@ h3 {
     font-family: "Roboto Mono";
     font-size: 250%;
     text-align: center;
-    color: #000000;
 }
 
 p, th, td {
@@ -97,7 +96,11 @@ div.contentWrapper {
     /*background-image: linear-gradient(to right, #ff416c, #ff4b2b);*/
 
 
-    background-color: #111111;
+    background-color: #151515;
+}
+
+#darkType {
+    background-color: #000000;
 }
 
 div.innerContent {
@@ -105,6 +108,23 @@ div.innerContent {
     margin: 0px 0px 20px 0px;
     background-color: #000000;
     text-align: center;
+}
+
+div.spacer {
+    height: 2px;
+
+    background-color: #888888;
+}
+
+div.footer {
+    background-color: #151515;
+
+    color: #eeeeee;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 div.buttonContainer {
@@ -125,6 +145,21 @@ img.avatar {
     transform: translate(0, -50%);
 
     filter: drop-shadow(0 0 7px #dc143c);
+
+    animation-name: avatarAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*animation-timing-function: ease-in-out;*/
+}
+
+@keyframes avatarAnimation {
+    0% {
+        transform: translate3d(0, -100, 0);
+    }
+    100% {
+        transform: translate3d(0, 100, 0);
+    }
 }
 
 td {
