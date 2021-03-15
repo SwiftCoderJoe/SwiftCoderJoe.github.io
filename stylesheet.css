@@ -266,4 +266,12 @@ table {
     div.listContainer {
         flex-direction: column;
     }
+
+    div.footer {
+        flex-direction: column;
+    }
+
+    div.listItem {
+        width: 90vw;
+    }
 }
