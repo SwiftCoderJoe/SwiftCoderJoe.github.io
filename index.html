@@ -31,109 +31,138 @@
 
         </div>
 
+        <div class="spacer"></div>
+
         <div class="contentWrapper">
 
-            <div class="innerContent">
-                <h2>Skills</h2>
-                <div class="listContainer">
+            <h2>Projects</h2>
 
-                    <div class="listItem">
-                        <h3>Programming</h3>
-                        <p>Although I'm most proficient in Swift and JavaScript, I also use Java, Python, HTML, CSS, GDScript and more.</p>
-                    </div>
+            <div class="listContainer">
 
-                    <div class="listItem">
-                        <h3>Frontend</h3>
-                        <p>I am confident in making user interfaces in HTML, CSS, UIKit, and intend to learn even more frameworks in the future.</p>
-                    </div>
+                
 
-                    <div class="listItem">
-                        <h3>Backend</h3>
-                        <p>I have dabbled in creating client-server based projects, I have used simple backend services such as Firebase, and I even have sysadmin experience from running my own server.</p>
-                    </div>
+                <div class="listItem">
 
-                    <div class="listItem">
-                        <h3>Content</h3>
-                        <p>I have created content ranging from documentation and websites to YouTube channels and blogs.</p>
-                    </div>
+                    <h3>Memeinator3000</h3>
+                    <p id="status">Status: <sh>Shipped</sh></p>
+                    <p>Memeinator3000 is an iOS app that allows you to easily change regular text into meme text.</p>
+                    <table>
+                        <tr>
+                            <th>Stack:</th>
+                            <td>UIKit</td>
+                            <td>Swift</td>
+                            <td>Firebase</td>
+                            <td>GitLab</td>
+                        </tr>
+                    </table>
+                </div>
 
+                <div class="listItem">
+                    <h3>Aer 2</h3>
+                    <p id="status">Status: <oh>On Hold</oh></p>
+                    <p>Aer 2 is designed to follow Aer's original goal in being a simple and extensible base of a Discord bot that other developers can add to and develop on.</p>
+                    <table>
+                        <tr>
+                            <th>Stack:</th>
+                            <td>Node.js</td>
+                            <td>Typescript</td>
+                            <td>Discord.js</td>
+                            <td>GitHub</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="listItem">
+                    <h3>Aer 1</h3>
+                    <p id="status">Status: <dead>Depreciated</dead></p>
+                    <p>Aer 1 is a simple Discord bot that can easily be configured and deployed.</p>
+                    <table>
+                        <tr>
+                            <th>Stack:</th>
+                            <td>Node.js</td>
+                            <td>Yarn</td>
+                            <td>Discord.js</td>
+                            <td>PM2</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="listItem">
+                    <h3>Portfolio</h3>
+                    <p id="status">Status: <sh>Shipped</sh></p>
+                    <p>You're looking at it right now!</p>
+                    <table>
+                        <tr>
+                            <th>Stack:</th>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>GitHub</td>
+                            <td>GitHub Pages</td>
+                        </tr>
+                    </table>
                 </div>
 
             </div>
 
-            <div class="innerContent">
-                <h2>Projects</h2>
+            <br/> <!-- This is an incredibly stupid way of spacing this. Someone needs to fix this. -->
 
-                <div class="listContainer">
-
-                    <div class="listItem">
-                        <h3>Memeinator3000</h3>
-                        <p id="status">Status: <sh>Shipped</sh></p>
-                        <p>Memeinator3000 is an iOS app that allows you to easily change regular text into meme text.</p>
-                        <table>
-                            <tr>
-                                <th>Stack:</th>
-                                <td>UIKit</td>
-                                <td>Swift</td>
-                                <td>Firebase</td>
-                                <td>GitLab</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="listItem">
-                        <h3>Aer 2</h3>
-                        <p id="status">Status: <oh>On Hold</oh></p>
-                        <p>Aer 2 is designed to follow Aer's original goal in being a simple and extensible base of a Discord bot that other developers can add to and develop on.</p>
-                        <table>
-                            <tr>
-                                <th>Stack:</th>
-                                <td>Node.js</td>
-                                <td>Typescript</td>
-                                <td>Discord.js</td>
-                                <td>GitHub</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="listItem">
-                        <h3>Aer 1</h3>
-                        <p id="status">Status: <dead>Depreciated</dead></p>
-                        <p>Aer 1 is a simple Discord bot that can easily be configured and deployed.</p>
-                        <table>
-                            <tr>
-                                <th>Stack:</th>
-                                <td>Node.js</td>
-                                <td>Yarn</td>
-                                <td>Discord.js</td>
-                                <td>PM2</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="listItem">
-                        <h3>Portfolio</h3>
-                        <p id="status">Status: <sh>Shipped</sh></p>
-                        <p>You're looking at it right now!</p>
-                        <table>
-                            <tr>
-                                <th>Stack:</th>
-                                <td>HTML</td>
-                                <td>CSS</td>
-                                <td>GitHub</td>
-                                <td>GitHub Pages</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                </div>
-
-                <div class="buttonContainer">
-                    <button class="button">See All Projects</button>
-                </div>
-
+            <div class="buttonContainer">
+                <button class="button" onclick="document.location='pages/projects.html'">See All Projects</button>
             </div>
             
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="contentWrapper" id="darkType">
+            <h2>Skills</h2>
+            <div class="listContainer">
+
+                <div class="listItem">
+                    <h3>Programming</h3>
+                    <p>I'm most proficient in Swift and JavaScript. I also use Java, Python, HTML, CSS, GDScript and more.</p>
+                </div>
+
+                <div class="listItem">
+                    <h3>Frontend</h3>
+                    <p>I am confident in making user interfaces in HTML, CSS, UIKit, and intend to learn even more frameworks in the future.</p>
+                </div>
+
+                <div class="listItem">
+                    <h3>Backend</h3>
+                    <p>I have dabbled in creating client-server based projects, I have used simple backend services such as Firebase, and I even have sysadmin experience from running my own server.</p>
+                </div>
+
+                <div class="listItem">
+                    <h3>Content</h3>
+                    <p>I have created content ranging from documentation and websites to YouTube channels and blogs.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="footer">
+            <button class="footerButton"><span>SwiftCoderJoe</span></button>
+            <div class="footer">
+                <div class="footerVStack">
+                    <button class="footerButton" id=""><span>Projects</span></button>
+                    <button class="footerButton" id="smallType"><span>Memeinator3000</span></button>
+                    <button class="footerButton" id="smallType"><span>Aer 1</span></button>
+                    <button class="footerButton" id="smallType"><span>Aer 2</span></button>
+                    <button class="footerButton" id="smallType"><span>Portfolio</span></button>
+                </div>
+                <div class="footerVStack">
+                    <button class="footerButton" id=""><span>Links</span></button>
+                    <button class="footerButton" id="smallType"><span>YouTube</span></button>
+                    <button class="footerButton" id="smallType"><span>GitHub</span></button>
+                    <button class="footerButton" id="smallType"><span>GitLab</span></button>
+                    <button class="footerButton" id="smallType"><span>Discord</span></button>
+                </div>
+                
+            </div>
         </div>
 
     </body>
