@@ -7,7 +7,7 @@
 h2 {
     font-family: "Roboto Mono";
     font-size: 500%;
-    text-align: center;
+    text-align: left;
     color: #eeeeee
 }
 
@@ -46,15 +46,17 @@ div.headerContent {
 div.content1 {
     padding: 50px;
     background-color: #000000;
+
+    text-align: left;
 }
 
 div.statusContainer {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
 
     align-items: center;
 
-    padding: 10px;
+    padding-left: 10px;
     background-color: #eeeeee;
 }
 
@@ -62,6 +64,13 @@ div.statusBox {
     padding: 10px;
 
     background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+div.projectHeader {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 #status {
