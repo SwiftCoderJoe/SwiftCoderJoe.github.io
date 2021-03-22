@@ -23,6 +23,10 @@ p, th, td {
     color: #eeeeee;
 }
 
+p {
+    font-size: 20px;
+}
+
 div.header {
     display: flex;
 
@@ -57,7 +61,7 @@ div.statusContainer {
     align-items: center;
 
     padding-left: 10px;
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
 }
 
 div.statusBox {
@@ -66,6 +70,7 @@ div.statusBox {
     float: right;
 
     background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 5px;
 }
 
 div.projectHeader {
@@ -79,6 +84,10 @@ div.projectHeader {
     text-align: center;
 }
 
+#white {
+    color: #eeeeee;
+}
+
 sh {
     color: #00ff15;
 }
@@ -89,6 +98,38 @@ oh {
 
 dead {
     color: #ff4b2b;
+}
+
+div.buttonList {
+    display: flex;
+}
+
+div.buttonContainer {
+    margin: 0 auto;
+    padding: 0px 2px;
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: "Roboto Mono";
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0,0);
 }
 
 /* MARK: Footer */
