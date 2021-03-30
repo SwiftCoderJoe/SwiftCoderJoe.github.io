@@ -4,6 +4,12 @@
     margin: 0px;
 }
 
+nav {
+    display: flex; /* What do we hate? Inline display! Why do we hate it? Ghost padding! */
+
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
 h2 {
     font-family: "Roboto Mono";
     font-size: 500%;
@@ -99,6 +105,20 @@ img.avatar {
     transform: translate(0, -50%);
 
     filter: drop-shadow(0 0 7px #dc143c);
+}
+
+img.logo {
+    border-radius: 50%;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+nav a {
+    color: #eeeeee;
+    text-decoration: none;
+
+    font-size: 30px;
 }
 
 td {
