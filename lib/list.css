@@ -24,6 +24,10 @@ div.listItem {
     /*box-shadow: -10px 10px 0px #ff416c;*/
 }
 
+#wideListItem {
+    width: 40vw;
+}
+
 div.listItem::before {
     content: '';
     position: absolute;
@@ -55,3 +59,4 @@ div.listItem::before {
 .button:hover {
     background-color: rgba(0,0,0,0);
 }
+

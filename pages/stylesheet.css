@@ -8,7 +8,7 @@ h2 {
     font-family: "Roboto Mono";
     font-size: 500%;
     text-align: left;
-    color: #eeeeee
+    color: #000000;
 }
 
 h3 {
@@ -20,7 +20,7 @@ h3 {
 
 p, th, td {
     font-family: "Roboto";
-    color: #eeeeee;
+    color: #000000;
 }
 
 p {
@@ -75,9 +75,24 @@ div.statusBox {
 
 div.projectHeader {
     display: flex;
+    flex-direction: column;
 
     justify-content: space-between;
     align-items: center;
+}
+
+div.contentWrapper {
+    padding: 20px;
+
+    background-color: #000000;
+}
+
+div.listContainer {
+    flex-direction: column;
+}
+
+div.listItem {
+    margin: 20vh 0px;
 }
 
 #status {
