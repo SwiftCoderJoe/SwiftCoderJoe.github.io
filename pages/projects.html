@@ -6,61 +6,98 @@
     <head>
         <title>SwiftCoderJoe Projects</title>
 
+        <!-- META -->
         <meta name="author" content="Joe Cardenas">
         <meta name="description" content="SwiftCoderJoe Portfolio">
         <meta name="keywords" content="portfolio">
         <meta charset="utf-8">
 
+        <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"> 
 
+        <!-- LIBS -->
+        <link rel="stylesheet" href="../lib/nav.css">
+        <link rel="stylesheet" href="../lib/list.css">
+
+        <!-- CUSTOM STYLE -->
         <link rel="stylesheet" href="stylesheet.css">
     </head>
 
     <body>
+
+        <nav>
+            <img src="../img/avatar.jpg" width="50px">
+            <div class="dropdownContainer">
+                <button class="dropdownButton" >Home</button>
+            </div>
+            <div class="dropdownContainer">
+                <button class="dropdownButton" onclick="document.location='pages/projects.html'">Projects</button>
+                <div class="dropdownContent">
+                    <a href="h">Memeinator3000</a>
+                    <a href="h">Aer</a>
+                    <a href="h">Aer 2</a>
+                    <a href="h">Portfolio</a>
+                </div>
+            </div>
+            <div class="dropdownContainer">
+                <button class="dropdownButton">Links</button>
+                <div class="dropdownContent">
+                    <a href="h">YouTube</a>
+                    <a href="h">GitHub</a>
+                    <a href="h">GitLab</a>
+                    <a href="h">Discord</a>
+                </div>
+            </div>
+        </nav>
+
         <div class="header">
             <div class="headerContent">
                 <h1>Projects</h1>
             </div>
         </div>
 
-        <div class="content1">
-            <div class="projectHeader">
-                <h2>Memeinator3000</h2>
-                <div class="statusContainer">
-                    <div>
-                        <h3 id="white">Status:</h3>
+        <div>
+            <div class="listContainer">
+                
+                <div class="listItem">
+                    <div class="projectHeader">
+                        <h2>Memeinator3000</h2>
+                        <div class="statusContainer">
+                            <div>
+                                <h3 id="white">Status:</h3>
+                            </div>
+                            <div class="statusBox">
+                                <h3>Shipped & Updating</h3>
+                            </div>
+                        </div>
                     </div>
-                    <div class="statusBox">
-                        <h3>Shipped & Updating</h3>
+                    <p>Memeinator3000 is an iOS app that allows you to easily change regular text into meme text. Memeinator3000 originally started as a small personal joke, but eventually grew into a marketable project. Memeinator3000 currently undergoing a Closed Alpha on Testflight. </p>
+                    <br/>
+                    <table>
+                        <tr>
+                            <th>Stack:</th>
+                            <td>UIKit</td>
+                            <td>Swift</td>
+                            <td>Firebase</td>
+                            <td>GitLab</td>
+                        </tr>
+                    </table>
+        
+                    <div class="buttonList">
+                        <div class="buttonContainer">
+                            <button class="button" onclick="document.location='../projects.html'">See Source</button>
+                        </div>
+                        <div class="buttonContainer">
+                            <button class="button" onclick="document.location='../projects.html'">See All Projects</button>
+                        </div>
+                        <div class="buttonContainer">
+                            <button class="button" onclick="document.location='../projects.html'">See All Projects</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <p>Memeinator3000 is an iOS app that allows you to easily change regular text into meme text. Memeinator3000 originally started as a small personal joke, but eventually grew into a marketable project. Memeinator3000 currently undergoing a Closed Alpha on Testflight. </p>
-            <br/>
-            <table>
-                <tr>
-                    <th>Stack:</th>
-                    <td>UIKit</td>
-                    <td>Swift</td>
-                    <td>Firebase</td>
-                    <td>GitLab</td>
-                </tr>
-            </table>
 
-            <div class="buttonList">
-                <div class="buttonContainer">
-                    <button class="button" onclick="document.location='../projects.html'">See Source</button>
-                </div>
-                <div class="buttonContainer">
-                    <button class="button" onclick="document.location='../projects.html'">See All Projects</button>
-                </div>
-                <div class="buttonContainer">
-                    <button class="button" onclick="document.location='../projects.html'">See All Projects</button>
-                </div>
             </div>
-            
-
         </div>
 
         <div class="footer">
