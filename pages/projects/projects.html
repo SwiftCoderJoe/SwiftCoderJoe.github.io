@@ -17,8 +17,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"> 
 
         <!-- LIBS -->
-        <link rel="stylesheet" href="../lib/nav.css">
-        <link rel="stylesheet" href="../lib/list.css">
+        <link rel="stylesheet" href="../../lib/global.css">
+        <link rel="stylesheet" href="../../lib/nav.css">
+        <link rel="stylesheet" href="../../lib/list.css">
 
         <!-- CUSTOM STYLE -->
         <link rel="stylesheet" href="stylesheet.css">
@@ -27,17 +28,17 @@
     <body>
 
         <nav>
-            <img src="../img/avatar.jpg" width="50px">
+            <img src="../../img/avatar.jpg" width="50px">
             <div class="dropdownContainer">
                 <button class="dropdownButton" >Home</button>
             </div>
             <div class="dropdownContainer">
-                <button class="dropdownButton" onclick="document.location='pages/projects.html'">Projects</button>
+                <button class="dropdownButton" onclick="document.location='#header'">Projects</button>
                 <div class="dropdownContent">
-                    <a href="h">Memeinator3000</a>
-                    <a href="h">Aer</a>
-                    <a href="h">Aer 2</a>
-                    <a href="h">Portfolio</a>
+                    <a href="#M3K">Memeinator3000</a>
+                    <a href="#Aer">Aer</a>
+                    <a href="#Aer2">Aer 2</a>
+                    <a href="#Portfolio">Portfolio</a>
                 </div>
             </div>
             <div class="dropdownContainer">
@@ -51,7 +52,7 @@
             </div>
         </nav>
 
-        <div class="header">
+        <div class="header" id="header">
             <div class="headerContent">
                 <h1>Projects</h1>
             </div>
@@ -198,7 +199,7 @@
             </div>
 
             <div class="image">
-                <img src="../img/avatar.jpg" class="sticky">
+                <img src="../img/avatar.jpg" class="stickyImage">
             </div>
         </div>
 
