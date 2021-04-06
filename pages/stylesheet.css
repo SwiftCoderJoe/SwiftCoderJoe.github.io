@@ -84,6 +84,10 @@ div.projectHeader {
 div.contentWrapper {
     padding: 20px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     background-color: #000000;
 }
 
@@ -93,6 +97,13 @@ div.listContainer {
 
 div.listItem {
     margin: 20vh 0px;
+}
+
+img.sticky {
+    height: 80vh;
+
+    position: sticky;
+    top: 10vh;    
 }
 
 #status {
