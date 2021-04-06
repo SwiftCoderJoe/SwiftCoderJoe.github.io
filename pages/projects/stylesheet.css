@@ -99,8 +99,10 @@ div.listItem {
     margin: 20vh 0px;
 }
 
-img.sticky {
+img.stickyImage {
     height: 80vh;
+
+    background-image: url(../../img/avatar.jpg);
 
     position: sticky;
     top: 10vh;    
