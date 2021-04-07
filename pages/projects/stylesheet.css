@@ -102,7 +102,11 @@ div.listItem {
 img.stickyImage {
     height: 80vh;
 
-    background-image: url(../../img/avatar.jpg);
+    border-radius: 5px;
+
+    /*filter: drop-shadow(0 0 7px #dc143c);*/
+
+    overflow-x: hidden;
 
     position: sticky;
     top: 10vh;    

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<!-- So, right now this page is kind of a mess. I suggest we change this to have Image on left/right side and sets of lists on the other side. -->
+<!-- epic jquery moment -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <html>
     <head>
@@ -33,7 +34,7 @@
         <nav>
             <img src="../../img/avatar.jpg" width="50px">
             <div class="dropdownContainer">
-                <button class="dropdownButton" >Home</button>
+                <button class="dropdownButton" onclick="document.location='../../index.html'">Home</button>
             </div>
             <div class="dropdownContainer">
                 <button class="dropdownButton" onclick="document.location='#header'">Projects</button>
@@ -202,7 +203,7 @@
             </div>
 
             <div class="image">
-                <img src="../../img/" class="stickyImage" id="stickyImageDOM">
+                <img src="../../img/avatar.jpg" class="stickyImage" id="stickyImageDOM">
             </div>
         </div>
 
