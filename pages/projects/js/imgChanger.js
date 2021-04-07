@@ -4,7 +4,7 @@ $(window).on("scroll touchmove", function()
    var newImageUrl = stickyImageDOM.src
 
 	if ($(document).scrollTop() >= $("#M3K").position().top && $(document).scrollTop() < $("#Aer").position().top  ) {
-		newImageUrl = "../../img/avatar.jpg"
+		newImageUrl = "../../img/m3k.png"
    }
 
 	if ($(document).scrollTop() >= $("#Aer").position().top && $(document).scrollTop() < $("#Aer2").position().top)
