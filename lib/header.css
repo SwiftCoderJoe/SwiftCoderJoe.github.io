@@ -14,7 +14,7 @@ div.headerContent {
     font-size: 4vw;
 
     position: relative;
-    z-index: 11;
+    /*z-index: 11;*/
 
     background-color: #000000;
 
@@ -22,6 +22,6 @@ div.headerContent {
 
     /*
     filter: drop-shadow(-10px 10px 0 #eeeeee); // Psuedolist 
-    filter: drop-shadow(0 0 10px #000000); // Dropshadow
     */
+    filter: drop-shadow(0 0 10px #000000);
 }

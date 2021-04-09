@@ -73,22 +73,6 @@ div.spacer {
     background-color: #888888;
 }
 
-div.footer {
-    background-color: #151515;
-
-    color: #eeeeee;
-
-    padding: 20px;
-
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div.footerVStack {
-    display: flex;
-    flex-direction: column;
-}
-
 div.buttonContainer {
     display: inline-block;
     margin: 0 auto;
@@ -127,53 +111,6 @@ oh {
 
 dead {
     color: #ff4b2b;
-}
-
-.footerButton {
-    display: inline-block;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #FFFFFF;
-    text-align: left;
-    font-size: 28px;
-    padding: 0;
-    width: 300px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 0px;
-
-    font-size: 30px;
-    font-family: "Roboto Mono";
-}
-
-.footerButton span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.footerButton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.footerButton:hover span {
-    padding-right: 25px;
-}
-
-.footerButton:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-#smallType {
-    font-size: 20px;
 }
 
 table {
