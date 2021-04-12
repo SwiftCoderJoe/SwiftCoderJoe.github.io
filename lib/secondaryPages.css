@@ -5,14 +5,24 @@ h2 {
     color: #000000;
 }
 
+h3 {
+    font-family: "Roboto Mono";
+    font-size: 250%;
+    text-align: center;
+}
+
 div.contentWrapper {
     padding: 40px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
     background-color: #000000;
+}
+
+div.lightType {
+    background-color: #151515;
 }
 
 div.buttonContainer {
