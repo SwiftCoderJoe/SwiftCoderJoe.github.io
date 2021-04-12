@@ -11,6 +11,13 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-family: "Roboto";
+    font-size: 120%;
+
+    padding: 10px;
+}
+
 div.contentWrapper {
     padding: 40px;
 
