@@ -3,6 +3,13 @@ h2 {
     font-size: 3.5vw;
 }
 
+div.contentWrapper h2 {
+    font-family: "Roboto Mono";
+    font-size: 500%;
+    text-align: center;
+    color: #eeeeee
+}
+
 div.contentWrapper {
     padding: 40px 0;
 }
@@ -10,11 +17,5 @@ div.contentWrapper {
 div.listContainer {
     flex-grow: 1;
 
-    justify-content: space-around;
-
-    flex-wrap: wrap;
-}
-
-div.listItem {
-    margin-bottom: 10vh;
+    justify-content: space-evenly;
 }

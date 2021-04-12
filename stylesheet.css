@@ -67,12 +67,6 @@ div.innerContent {
     text-align: center;
 }
 
-div.spacer {
-    height: 2px;
-
-    background-color: #888888;
-}
-
 div.buttonContainer {
     display: inline-block;
     margin: 0 auto;

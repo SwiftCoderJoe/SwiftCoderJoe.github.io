@@ -24,6 +24,12 @@ div.listItem {
     /*box-shadow: -10px 10px 0px #ff416c;*/
 }
 
+div.spacer {
+    height: 2px;
+
+    background-color: #888888;
+}
+
 #wideListItem {
     width: 40vw;
 }
