@@ -1,0 +1,27 @@
+div.header {
+    display: flex;
+
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    height: 50vh;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.headerContent {
+    color: #eeeeee;
+    font-family: "Roboto Mono";
+    font-size: 4vw;
+
+    position: relative;
+    /*z-index: 11;*/
+
+    background-color: #000000;
+
+    padding: 50px;
+
+    /*
+    filter: drop-shadow(-10px 10px 0 #eeeeee); // Psuedolist 
+    */
+    filter: drop-shadow(0 0 10px #000000);
+}

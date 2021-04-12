@@ -1,0 +1,23 @@
+h2 {
+    font-family: "Roboto Mono";
+    font-size: 500%;
+    text-align: left;
+    color: #000000;
+}
+
+div.contentWrapper {
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #000000;
+}
+
+div.buttonContainer {
+    margin: 0 auto;
+    padding: 0px 2px;
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 5px;
+}

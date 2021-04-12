@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    border-collapse: collapse;
-    margin: 0px;
-}
-
 h2 {
     font-family: "Roboto Mono";
     font-size: 500%;
@@ -45,43 +39,6 @@ div.header {
     align-items: center;
 }
 
-div.headerContent {
-    padding: 25px;
-}
-
-div.listContainer {
-    padding: 10px;
-    display: flex;
-    position: relative;
-
-    z-index: 1;
-
-    justify-content: space-between;
-}
-
-div.listItem {
-    /*flex: 1;*/
-    padding: 20px;
-
-    position: relative;
-
-    width: 20vw;
-    background: #eeeeee;
-
-    /*box-shadow: -10px 10px 0px #ff416c;*/
-}
-
-div.listItem::before {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-}
-
 div.headerWhite {
     background-color: #eeeeee;
 
@@ -116,22 +73,6 @@ div.spacer {
     background-color: #888888;
 }
 
-div.footer {
-    background-color: #151515;
-
-    color: #eeeeee;
-
-    padding: 20px;
-
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div.footerVStack {
-    display: flex;
-    flex-direction: column;
-}
-
 div.buttonContainer {
     display: inline-block;
     margin: 0 auto;
@@ -150,21 +91,6 @@ img.avatar {
     transform: translate(0, -50%);
 
     filter: drop-shadow(0 0 7px #dc143c);
-
-    animation-name: avatarAnimation;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    /*animation-timing-function: ease-in-out;*/
-}
-
-@keyframes avatarAnimation {
-    0% {
-        transform: translate3d(0, -100, 0);
-    }
-    100% {
-        transform: translate3d(0, 100, 0);
-    }
 }
 
 td {
@@ -185,76 +111,6 @@ oh {
 
 dead {
     color: #ff4b2b;
-}
-
-/* for future reference: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_animate1 */
-
-.button {
-    border-radius: 5px;
-    background-color: rgba(0,0,0,1);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    font-family: "Roboto Mono";
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.button:hover {
-    background-color: rgba(0,0,0,0);
-}
-
-.footerButton {
-    display: inline-block;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #FFFFFF;
-    text-align: left;
-    font-size: 28px;
-    padding: 0;
-    width: 300px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 0px;
-
-    font-size: 30px;
-    font-family: "Roboto Mono";
-}
-
-.footerButton span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.footerButton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.footerButton:hover span {
-    padding-right: 25px;
-}
-
-.footerButton:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-#smallType {
-    font-size: 20px;
 }
 
 table {

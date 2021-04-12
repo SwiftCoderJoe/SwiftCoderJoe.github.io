@@ -1,16 +1,3 @@
-* {
-    box-sizing: border-box;
-    border-collapse: collapse;
-    margin: 0px;
-}
-
-h2 {
-    font-family: "Roboto Mono";
-    font-size: 500%;
-    text-align: left;
-    color: #eeeeee
-}
-
 h3 {
     font-family: "Roboto Mono";
     font-size: 250%;
@@ -20,27 +7,11 @@ h3 {
 
 p, th, td {
     font-family: "Roboto";
-    color: #eeeeee;
+    color: #000000;
 }
 
-div.header {
-    display: flex;
-
-    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
-    height: 50vh;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-}
-
-div.headerContent {
-    color: #eeeeee;
-    font-family: "Roboto Mono";
-    font-size: 4vw;
-
-    background-color: #000000;
-
-    padding: 50px;
+p {
+    font-size: 20px;
 }
 
 div.content1 {
@@ -57,24 +28,53 @@ div.statusContainer {
     align-items: center;
 
     padding-left: 10px;
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
 }
 
 div.statusBox {
     padding: 10px;
 
+    float: right;
+
     background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 5px;
 }
 
 div.projectHeader {
     display: flex;
+    flex-direction: column;
 
     justify-content: space-between;
     align-items: center;
 }
 
+div.listContainer {
+    flex-direction: column;
+}
+
+div.listItem {
+    margin: 20vh 0px;
+}
+
+img.stickyImage {
+    height: 80vh;
+
+    border-radius: 5px;
+
+    /*filter: drop-shadow(0 0 7px #dc143c);*/
+
+    overflow-x: hidden;
+
+    position: sticky;
+    top: 10vh;    
+}
+
 #status {
     text-align: center;
+}
+
+#white {
+    color: #eeeeee;
 }
 
 sh {
