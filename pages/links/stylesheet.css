@@ -1,3 +1,9 @@
+.listItem {
+    display: flex;
+
+    flex-direction: column;
+}
+
 h2 {
     text-align: center;
     font-size: 3.5vw;
@@ -8,6 +14,10 @@ div.contentWrapper h2 {
     font-size: 500%;
     text-align: center;
     color: #eeeeee
+}
+
+div.contentSpacer {
+    flex-grow: 1;
 }
 
 div.contentWrapper {
