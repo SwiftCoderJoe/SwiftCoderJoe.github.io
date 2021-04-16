@@ -69,3 +69,19 @@ div.listItem::before {
 div.buttonList {
     display: flex;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    div.listContainer {
+        flex-direction: column;
+    }
+    div.listItem {
+        margin: 1vh 0 !important;
+    }
+    .contentWrapper img {
+        display: none;
+    }
+    #wideListItem {
+        width: auto;
+        flex-grow: 1;
+    }
+}

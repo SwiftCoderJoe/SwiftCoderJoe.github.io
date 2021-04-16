@@ -25,3 +25,9 @@ div.headerContent {
     */
     filter: drop-shadow(0 0 10px #000000);
 }
+
+@media (max-aspect-ratio: 1/1) {
+    div.headerContent {
+        font-size: 8vw;
+    }
+}

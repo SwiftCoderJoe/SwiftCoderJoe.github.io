@@ -112,12 +112,8 @@ table {
     margin-right: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-aspect-ratio: 1/1) {
     div.listContainer {
-        flex-direction: column;
-    }
-
-    div.footer {
         flex-direction: column;
     }
 

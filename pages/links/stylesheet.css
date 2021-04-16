@@ -6,12 +6,15 @@
 
 h2 {
     text-align: center;
-    font-size: 3.5vw;
+}
+
+h3 {
+    font-size: 3vw;
 }
 
 div.contentWrapper h2 {
     font-family: "Roboto Mono";
-    font-size: 500%;
+    font-size: 4.5vw;
     text-align: center;
     color: #eeeeee
 }
@@ -20,12 +23,17 @@ div.contentSpacer {
     flex-grow: 1;
 }
 
-div.contentWrapper {
-    padding: 40px 0;
-}
-
 div.listContainer {
     flex-grow: 1;
 
     justify-content: space-evenly;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    div.contentWrapper h2 {
+        font-size: 9vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
 }
