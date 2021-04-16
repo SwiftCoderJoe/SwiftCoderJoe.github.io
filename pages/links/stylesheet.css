@@ -8,6 +8,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 3vw;
+}
+
 div.contentWrapper h2 {
     font-family: "Roboto Mono";
     font-size: 4.5vw;
