@@ -60,3 +60,9 @@ div.footerVStack {
     opacity: 1;
     right: 0;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    div.footer {
+        flex-direction: column;
+    }
+}

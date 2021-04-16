@@ -1,28 +1,10 @@
-h3 {
-    font-family: "Roboto Mono";
-    font-size: 250%;
-    text-align: center;
-    color: #000000;
-}
-
 p, th, td {
     font-family: "Roboto";
     color: #000000;
 }
 
-p {
-    font-size: 20px;
-}
-
 div.contentWrapper {
     flex-direction: row;
-}
-
-div.content1 {
-    padding: 50px;
-    background-color: #000000;
-
-    text-align: left;
 }
 
 div.statusContainer {

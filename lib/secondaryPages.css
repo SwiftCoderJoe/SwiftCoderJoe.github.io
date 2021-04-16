@@ -1,19 +1,19 @@
 h2 {
     font-family: "Roboto Mono";
-    font-size: 500%;
+    font-size: 3.5vw;
     text-align: left;
     color: #000000;
 }
 
 h3 {
     font-family: "Roboto Mono";
-    font-size: 250%;
+    font-size: 2vw;
     text-align: center;
 }
 
 p {
     font-family: "Roboto";
-    font-size: 120%;
+    font-size: 1vw;
 
     padding: 10px;
 }
@@ -37,4 +37,16 @@ div.buttonContainer {
     padding: 0px 2px;
     background-image: linear-gradient(to right, #ff416c, #ff4b2b);
     border-radius: 5px;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    h2 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 2vw;
+    }
 }
