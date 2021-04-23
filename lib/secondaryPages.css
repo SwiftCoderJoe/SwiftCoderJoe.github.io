@@ -39,6 +39,10 @@ div.buttonContainer {
     border-radius: 5px;
 }
 
+.contactButton {
+    width: 200px;
+}
+
 @media (max-aspect-ratio: 1/1) {
     h2 {
         font-size: 7vw;
@@ -48,5 +52,11 @@ div.buttonContainer {
     }
     p {
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contactButton {
+        width: calc(100% - 4px);
     }
 }

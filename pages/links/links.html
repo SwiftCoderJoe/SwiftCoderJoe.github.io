@@ -47,12 +47,12 @@
                 </div>
             </div>
             <div class="dropdownContainer">
-                <button class="dropdownButton" onclick="document.location=''">Links</button>
+                <button class="dropdownButton" onclick="document.location='#header'">Links</button>
                 <div class="dropdownContent">
-                    <a href="h">YouTube</a>
-                    <a href="h">GitHub</a>
-                    <a href="h">GitLab</a>
-                    <a href="h">Discord</a>
+                    <a href="#youtube">YouTube</a>
+                    <a href="#social">Social Media</a>
+                    <a href="#git">Git</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
@@ -65,115 +65,138 @@
 
         <div class="spacer"></div>
 
-        <div class="contentWrapper">
+        <section id="youtube">
+            <div class="contentWrapper">
 
-            <h2>YouTube</h2>
+                <h2>YouTube</h2>
 
-            <div class="listContainer">
-                <div class="listItem" id="wideListItem">
-                    <h3>Joe Talks Tech</h3>
-                    <p>Of my two YouTube channels, this is my personal channel. Joe Talks Tech is a place for me to talk about my personal opinions about computers, open source, and other general tech topics. Although I don't post very often, It's a good way for me to learn how to produce good, entertaining content.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                <div class="listContainer">
+                    <div class="listItem" id="wideListItem">
+                        <h3>Joe Talks Tech</h3>
+                        <p>Of my two YouTube channels, this is my personal channel. Joe Talks Tech is a place for me to talk about my personal opinions about computers, open source, and other general tech topics. Although I don't post very often, It's a good way for me to learn how to produce good, entertaining content.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="listItem" id="wideListItem">
-                    <h3>Unstable Designs</h3>
-                    <p>Of my two YouTube channels, Unstable Designs is more about showcasing my projects and creating a fun environment. Unstable Designs will be uploaded to even less than Joe Talks Tech, however, content should be longer and funnier. Unstable Designs is a joint venture between me and Alex Ryan.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                    <div class="listItem" id="wideListItem">
+                        <h3>Unstable Designs</h3>
+                        <p>Of my two YouTube channels, Unstable Designs is more about showcasing my projects and creating a fun environment. Unstable Designs will be uploaded to even less than Joe Talks Tech, however, content should be longer and funnier. Unstable Designs is a joint venture between me and Alex Ryan.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="spacer"></div>
 
-        <div class="contentWrapper lightType">
+        <section id="social">
+            <div class="contentWrapper lightType">
 
-            <h2>Social Media</h2>
+                <h2>Social Media</h2>
 
-            <div class="listContainer">
-                <div class="listItem" id="wideListItem">
-                    <h3>Twitch</h3>
-                    <p>On my Twitch channel, expect to find mainly programming streams and Beat Saber streams. I find it incredibly fun to interact with a community live during my Beat Saber streams, as they recommend me songs to play and I diligently perform them.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                <div class="listContainer">
+                    <div class="listItem" id="wideListItem">
+                        <h3>Twitch</h3>
+                        <p>On my Twitch channel, expect to find mainly programming streams and Beat Saber streams. I find it incredibly fun to interact with a community live during my Beat Saber streams, as they recommend me songs to play and I diligently perform them.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="listItem" id="wideListItem">
-                    <h3>Discord</h3>
-                    <p>I use Discord for everything from team coordination to interacting with communities I enjoy. Discord is a great place to gather with likeminded people, so feel free to join my public server below. There, we will talk about everything from programming to memes and gaming.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                    <div class="listItem" id="wideListItem">
+                        <h3>Discord</h3>
+                        <p>I use Discord for everything from team coordination to interacting with communities I enjoy. Discord is a great place to gather with likeminded people, so feel free to join my public server below. There, we will talk about everything from programming to memes and gaming.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="spacer"></div>
 
-        <div class="contentWrapper">
+        <section id="git">
+            <div class="contentWrapper">
 
-            <h2>Git</h2>
+                <h2>Git</h2>
 
-            <div class="listContainer">
-                <div class="listItem" id="wideListItem">
-                    <h3>GitHub</h3>
-                    <p>I host most of my open source projects here, including Aer, Aer 2, and even this portfolio. Expect to find most of my work here, and feel free to follow me for more open source, Linux, and personal projects to come.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                <div class="listContainer">
+                    <div class="listItem" id="wideListItem">
+                        <h3>GitHub</h3>
+                        <p>I host most of my open source projects here, including Aer, Aer 2, and even this portfolio. Expect to find most of my work here, and feel free to follow me for more open source, Linux, and personal projects to come.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="listItem" id="wideListItem">
-                    <h3>GitLab</h3>
-                    <p>Although I may not host as many projects on GitLab as I do on GitHub, my GitLab is still a useful place to be following. Most notably, I have hosted the closed source version of Memeinator3000 on GitLab, and I will host the open source version on GitLab as well when that is available.</p>
-                    <div class="contentSpacer"></div>
-                    <div class="buttonList">
-                        <div class="buttonContainer">
-                            <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                    <div class="listItem" id="wideListItem">
+                        <h3>GitLab</h3>
+                        <p>Although I may not host as many projects on GitLab as I do on GitHub, my GitLab is still a useful place to be following. Most notably, I have hosted the closed source version of Memeinator3000 on GitLab, and I will host the open source version on GitLab as well when that is available.</p>
+                        <div class="contentSpacer"></div>
+                        <div class="buttonList">
+                            <div class="buttonContainer">
+                                <button class="button" onclick="document.location='../projects.html'">Visit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+            
+        <div class="spacer"></div>
+
+        <section id="contact">
+            <div class="contentWrapper">
+
+                <h2>Contact</h2>
+
+                <div class="buttonList">
+                    <div class="buttonContainer">
+                        <button class="button contactButton" onclick="h">Email</button>
+                        <button class="button contactButton" onclick="h">Discord</button>
+                        <button class="button contactButton" onclick="h">Matrix</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="spacer"></div>
 
         <div class="footer">
-            <button class="footerButton"><span>SwiftCoderJoe</span></button>
+            <button class="footerButton" onclick="document.location='../../index.html'"><span>SwiftCoderJoe</span></button>
             <div class="footer">
                 <div class="footerVStack">
-                    <button class="footerButton" id=""><span>Projects</span></button>
-                    <button class="footerButton" id="smallType"><span>Memeinator3000</span></button>
-                    <button class="footerButton" id="smallType"><span>Aer 1</span></button>
-                    <button class="footerButton" id="smallType"><span>Aer 2</span></button>
-                    <button class="footerButton" id="smallType"><span>Portfolio</span></button>
+                    <button class="footerButton" id="" onclick="document.location='../projects/projects.html'"><span>Projects</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='../projects/projects.html#M3K'"><span>Memeinator3000</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='../projects/projects.html#Aer'"><span>Aer 1</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='../projects/projects.html#Aer2'"><span>Aer 2</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='../projects/projects.html#Portfolio'"><span>Portfolio</span></button>
                 </div>
                 <div class="footerVStack">
-                    <button class="footerButton" id=""><span>Links</span></button>
-                    <button class="footerButton" id="smallType"><span>YouTube</span></button>
-                    <button class="footerButton" id="smallType"><span>GitHub</span></button>
-                    <button class="footerButton" id="smallType"><span>GitLab</span></button>
-                    <button class="footerButton" id="smallType"><span>Discord</span></button>
+                    <button class="footerButton" id="" onclick="document.location='#header'"><span>Links</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='#youtube'"><span>YouTube</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='#social'"><span>Social Media</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='#git'"><span>Git</span></button>
+                    <button class="footerButton" id="smallType" onclick="document.location='#contact'"><span>Contact</span></button>
                 </div>
                 
             </div>
