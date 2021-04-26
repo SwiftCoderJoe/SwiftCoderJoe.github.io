@@ -11,7 +11,7 @@ h3 {
     text-align: center;
 }
 
-p {
+p, th, td {
     font-family: "Roboto";
     font-size: 1vw;
 
@@ -41,6 +41,10 @@ div.buttonContainer {
 
 .contactButton {
     width: 200px;
+}
+
+td {
+    padding: 5px;
 }
 
 @media (max-aspect-ratio: 1/1) {
