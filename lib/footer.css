@@ -13,6 +13,15 @@ div.footer {
     justify-content: space-evenly;
 }
 
+div.footer.darkType { /* I hate whoever designed this syntax! (This means divs with both the footer and darktype classes) */
+    background-color: #000000;
+}
+
+/* This keeps nested footers all the same color*/
+div.footer .footer {
+    background-color: transparent;
+}
+
 div.footerVStack {
     display: flex;
     flex-direction: column;
