@@ -28,7 +28,7 @@ div.header {
 
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    height: calc(100vh - 50px);
 
     background-color: #000000;
 
@@ -43,7 +43,7 @@ div.header {
 div.headerWhite {
     background-color: #eeeeee;
 
-    height: 100vh;
+    height: calc(100vh - 50px);
     width: 25%
 }
 
