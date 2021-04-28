@@ -9,15 +9,15 @@ $(window).on("scroll touchmove", function()
 
 	if ($(document).scrollTop() >= $("#Aer").position().top && $(document).scrollTop() < $("#Aer2").position().top)
 	{
-		newImageUrl = "../../img/2.jpg"
+		newImageUrl = "../../img/aer.png"
     };
    if ($(document).scrollTop() >= $("#Aer2").position().top && $(document).scrollTop() < $("#Portfolio").position().top ) 
    {
-		newImageUrl = "../../img/3.jpg"
+		newImageUrl = "../../img/aer2.png"
    };
    if ($(document).scrollTop() >= $("#Portfolio").position().top) 
    {
-		newImageUrl = "../../img/4.jpg"
+		newImageUrl = "../../img/portfolio.png"
    };
   
    stickyImageDOM.src = newImageUrl
